@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container img {
+    background-size: cover;
+    width: 100%;
+}
+
+.contents {
+    left: 0;
+    top: 35%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'VT323', monospace;
+}
+.contents button{
+    border-color:#DDC2BD;
+    width: 180px;
+    height: 60px;
+    background-color: #F3D6D0;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: 'VT323', monospace;
+    
+}
+@media screen and (max-width: 900px){
+    .container img{
+        width: 100vw;
+        height: 100vh;
+        display: block;
+    }
+    .contents{
+        font-size: 30px;
+    }
+}
