@@ -11,9 +11,16 @@
     --color-quinary: #212529;
   }
 
+.container{
+  max-width: 100%;
+}
 .container img {
-    background-size: cover;
     width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index:-1;
 }
 
 .contents {
@@ -34,6 +41,7 @@
     font-size: 25px;
     font-family: 'VT323', monospace;
     color: white;
+    text-shadow: 0 0 8px #c4928f;
 }
 .contents button a{
   text-decoration: none;
