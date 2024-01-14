@@ -46,6 +46,11 @@
 .contents button a{
   text-decoration: none;
 }
+.contents p{
+  font-size: 26px;
+  color: black;
+  margin-top: 320px;
+}
 .contents h1 {
     text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
       9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
