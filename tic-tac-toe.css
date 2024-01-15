@@ -24,7 +24,7 @@
 }
 #board{
     position: relative;
-    width: 600px;
+    width: 31.25vw;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -49,8 +49,8 @@
     color: #FDFAF4;
 }
 .box{
-    height: 200px;
-    width: 200px;
+    height: 20.7vh;
+    width: 10.4vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,4 +68,29 @@
 }
 .box:nth-child(6) ~ .box{
     border-bottom: none;
+}
+@media (max-width: 600px) and (min-width: 300px){
+    #board{
+        width: 300px;
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        font-size: 40px;
+    }
+    #restart{
+        width: 115px;
+        height: 45px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 900px) and (min-width: 600px){
+    #board{
+        width: 500px;
+    }
+    .box{
+        height: 150px;
+        width: 150px;
+    }
+
 }
