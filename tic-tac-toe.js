@@ -2,6 +2,10 @@ function audio() {
     const click = new Audio("mouse-click-effect.wav");
     click.play();
 }
+function winSound(){
+    const winSound = new Audio("winSound.mp3");
+    winSound.play();
+}
 
 let playerInput = document.getElementById('status');
 let restartbtn = document.getElementById('restart');
@@ -42,6 +46,7 @@ function win() {
         let [a, b, c] = condition;
 
         if (spaces[a] && spaces[a] == spaces[b] && spaces[a] == spaces[c]) {
+            winSound();
             return [a, b, c];
         }
     }
