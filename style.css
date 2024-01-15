@@ -38,7 +38,7 @@
     height: 60px;
     background-color: #F3D6D0;
     border-radius: 15px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'VT323', monospace;
     color: white;
     text-shadow: 0 0 8px #c4928f;
@@ -47,9 +47,9 @@
   text-decoration: none;
 }
 .contents p{
-  font-size: 26px;
+  font-size: 1.625rem;
   color: black;
-  margin-top: 320px;
+  margin-top: 33vh;
 }
 .contents h1 {
     text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
@@ -129,7 +129,7 @@
     }
   }
   
-@media screen and (max-width: 900px){
+  @media (max-width: 800px) and (min-width: 300px){
     .container img{
         width: 100vw;
         height: 100vh;
@@ -138,4 +138,17 @@
     .contents{
         font-size: 30px;
     }
+    .contents h1 {
+      margin-left: 10px;
+      margin-bottom: 30px;
+    }
+    .contents button{
+      width: 120px;
+      height: 50px;
+      font-size: 18px;
+  }
+  .contents p{
+    font-size: 1.4rem;
+    margin-top: 35vh;
+  }
 }
